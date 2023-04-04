@@ -26,6 +26,9 @@ body{
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
+  border:2px solid white;
+  border-radius:5px;
+  line-height: 10px; 
   color: #fff;
   padding: 10px 10px 10px 10px;
 }
@@ -103,6 +106,10 @@ body{
 
 
 
+#msbtelogo{
+	border: 4mm ridge rgba(211, 220, 50, .6);
+	color: red;
+}
 /*ABOUT*/
 
 
@@ -121,11 +128,9 @@ body{
 body{
     font-family: 'Playfair Display', serif;
     display: grid;
-    background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    /*background-color: #4158D0;*/
+background-image: url(back.jpg);
 
-    align-content: center;
-    min-height: 100vh;
 }
 #aboutsec{
 
